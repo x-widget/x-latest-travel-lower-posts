@@ -1,0 +1,85 @@
+.travel_lower_post{
+	border:1px solid #bbbbbb;	
+	padding-bottom:15px;
+	height:153px;
+}
+
+.travel_lower_post_title{
+	font-weight:bold;
+	padding:0 10px;
+	border-bottom:1px solid #bbbbbb;
+	background-color:#fafafa;
+	height: 28px;
+	line-height: 28px;
+}
+
+.travel_lower_post_title .board_subject{
+	display:inline-block;
+	width:65%;
+	overflow:hidden;
+	white-space:nowrap;
+	float: left;
+}
+
+.travel_lower_post_title .board_subject a {
+	color: #444444;
+}
+
+.travel_lower_post_title .board_subject a:hover {
+	text-decoration: none;
+}
+
+.travel_lower_post_title  .more_button{
+	font-weight:normal;
+	color:#808080;
+	font-size: 9pt;
+	float:right;
+	margin-top: 2px;
+	text-decoration:none;
+}
+
+.travel_lower_post_title .icon{
+	position: relative;
+	top: -1px;
+	margin-right: 5px;
+	height:10px;
+	width:10px;
+}
+
+.travel_lower_items{
+	padding:0 10px;	
+}
+
+.travel_lower_items .item{	
+	border-bottom:1px solid #bbbbbb;
+	padding:7px 0 8px 0;	
+}
+.travel_lower_items .item .subject{
+	position: relative;
+	overflow: hidden;
+	height: 15px;
+}
+.travel_lower_items .item .comments{
+	position: absolute;
+	right: 0;
+	top: 0;
+	color:#cc4235;
+}
+
+.travel_lower_items .item.no-margin{
+	margin-bottom:0;	
+}
+
+.travel_lower_items .item .subject a{
+	display:inline-block;
+	vertical-align: middle;
+	width:65%;
+	text-decoration:none;	
+	overflow:hidden;
+}
+
+.travel_lower_items .item .subject .bullet{
+	position:relative;
+	top:-1px;
+	margin-right:8px;
+}

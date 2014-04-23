@@ -71,21 +71,21 @@ $title = cut_str(db::result( $title_query ),10,"...");
     <?php if (count($list) == 0) { //게시물이 없을 때  ?>
 		<div class='item'>
 			<div class='subject'>
-				<img class='bullet' src='<?=$latest_skin_url?>/img/arrow-bullet.png' />
+				<img class='bullet' src='<?=x::url()?>/widget/<?=$widget_config['name']?>/img/arrow-bullet.png' />
 				<a href='http://www.philgo.net/bbs/board.php?bo_table=help&wr_id=5'>사이트 만들기 안내</a>
 				<div class='comments'>[5]</div>
 			</div>
 		</div>
 		<div class='item'>
 			<div class='subject'>
-				<img class='bullet' src='<?=$latest_skin_url?>/img/arrow-bullet.png' />
+				<img class='bullet' src='<?=x::url()?>/widget/<?=$widget_config['name']?>/img/arrow-bullet.png' />
 				<a href='http://www.philgo.net/bbs/board.php?bo_table=help&wr_id=5'>블로그 만들기</a>
 				<div class='comments'>[5]</div>
 			</div>
 		</div>
 		<div class='item'>
 			<div class='subject'>
-				<img class='bullet' src='<?=$latest_skin_url?>/img/arrow-bullet.png' />
+				<img class='bullet' src='<?=x::url()?>/widget/<?=$widget_config['name']?>/img/arrow-bullet.png' />
 				<a href='http://www.philgo.net/bbs/board.php?bo_table=help&wr_id=5'  style='color: #cc4235; font-weight: bold;'>여행사 사이트 만들기</a>
 				<div class='comments'>[5]</div>
 			</div>	
